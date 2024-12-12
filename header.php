@@ -17,8 +17,7 @@
         <div class="flex max-w-screen-xl mx-auto h-[70px]">
             <div class="flex-none  pl-1">
                 <a class="relative z-2" href="<?php echo home_url() ?>">
-                    <img class="logo h-[60px]" src="<?= get_template_directory_uri() ?>/assets/img/logo.svg"
-                        alt="logo" />
+                    <?php the_custom_logo()?>
                 </a>
             </div>
             <div id="menu" class="flex-1 pt-1">

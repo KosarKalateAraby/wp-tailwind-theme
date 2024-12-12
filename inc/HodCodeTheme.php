@@ -21,6 +21,7 @@ class HodCodeTheme
     {
         add_theme_support('post-thumbnails');
         add_theme_support('title-tag');
+        add_theme_support('custom-logo');
 
         foreach (get_class_methods(self::class) as $method) {
             if (substr($method, 0, strlen("register")) == "register")
