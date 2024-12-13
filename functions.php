@@ -14,7 +14,8 @@ include_once("inc/vite.php");
 
 // uncomment if you want a simple custom post type named event is added
 // include_once("inc/PostTypes/CustomPostType.php");
-
+CustomFields::add_text_field("price","قیمت");
+CustomFields::add_text_field("final_price","قیمت نهایی");
 
 include_once("inc/SearchEndpoint.php");
 
